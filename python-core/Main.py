@@ -21,7 +21,7 @@ def start_server():
 
 if __name__ == '__main__':
 
-    print("Starting Assistant...")
+    print("Starting GPT4ALL Brain...")
 
     web_sockets_server = WebSocketsServer()
     threading.Thread(target=websockets_server_messages, daemon=True).start()
@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     gpt4all_brain = Gpt4AllBrain()
 
-    print("Assistant Started!")
+    print("GTP4ALL Brain Started!")
 
     while True:
         sleep(0.1)
