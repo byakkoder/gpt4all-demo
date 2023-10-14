@@ -1,5 +1,5 @@
 # About gpt4all-demo
-This is a demo of how to use gpt4all with Python and Godot. The brain of the app, writed in Python, communicates with a client UI using WebSockets.
+This is a demo of how to use gpt4all with Python and Godot. The brain of the app, written in Python, communicates with a client UI using WebSockets.
 
 I made this demo to demostrate how easy is integrate A.I. capabilities in an app using the libraries provided by the project gpt4all.
 
